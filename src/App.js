@@ -50,7 +50,7 @@ function App() {
 
       <section className="hero">
         <video autoPlay muted loop>
-          <source src="/images/TUMa - MADEIRA - Videoclip1.mp4" type="video/mp4" />
+          <source src="https://drive.google.com/uc?export=download&id=1tGwvrnACP2WWUphJsYvPJMAwi2XqJSXA" type="video/mp4" />
         </video>
         <div className="hero-content">
           <h1>TUMa - Tuna Universitária da Madeira</h1>
