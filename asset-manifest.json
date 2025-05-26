@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tuma-viewer/static/css/main.ec6d37ca.css",
-    "main.js": "/tuma-viewer/static/js/main.d5fb759a.js",
+    "main.js": "/tuma-viewer/static/js/main.453c8022.js",
     "static/js/453.3e550fff.chunk.js": "/tuma-viewer/static/js/453.3e550fff.chunk.js",
     "index.html": "/tuma-viewer/index.html",
     "main.ec6d37ca.css.map": "/tuma-viewer/static/css/main.ec6d37ca.css.map",
-    "main.d5fb759a.js.map": "/tuma-viewer/static/js/main.d5fb759a.js.map",
+    "main.453c8022.js.map": "/tuma-viewer/static/js/main.453c8022.js.map",
     "453.3e550fff.chunk.js.map": "/tuma-viewer/static/js/453.3e550fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec6d37ca.css",
-    "static/js/main.d5fb759a.js"
+    "static/js/main.453c8022.js"
   ]
 }
