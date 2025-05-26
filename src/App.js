@@ -61,7 +61,7 @@ function App() {
 
       <section id="aboutUs" className="text-center section">
         <div className="container">
-          <h2 className="mb-5">About Us</h2>
+          <h3 className="mb-5">About Us</h3>
           <p>TUMa - Tuna Masculina da Universidade da Madeira began its activities in September 1995, having been formed, however, in April 1994 as a mixed tuna. On March 13, 1998, the Association called Tuna Universitária da Madeira (TUMa) was established.</p>
           <p>TUMa's main objectives are to promote the spirit and academic life both in the university environment and in the socio-cultural life where it operates, to promote exchanges with other national and foreign university tunas and to take the name of the University of Madeira and the Region to various corners of Portugal and abroad. TUMa has already had the opportunity to visit: France, Spain, Austria, Thailand, China, Macau, Hong Kong, South Africa, Venezuela, Canada, Chile and Brazil (in Brazil we only play at São Paulo airport), as well as all of Portugal.</p>
           <p>One of the strategies adopted by TUMa to achieve its goals is the annual organization of the Meeting of University Tunas of the City of Funchal, which has been held since 1995. Its high point is on the first Saturday of December, at Praça do Município, with performances by the host and guest tuna. During the meeting, socio-cultural activities are also organized for visitors.</p>
@@ -70,7 +70,7 @@ function App() {
 
       <section id="model" className="section bg-dark text-white">
         <div className="container-fluid px-5">
-          <h3 className="mb-5 text-center">Instruments</h3>
+          <h2 className="mb-5 text-center">Instruments</h2>
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="model-viewer-wrapper w-100" style={{ background: 'transparent', height: '500px' }}>
@@ -99,7 +99,7 @@ function App() {
 
       <section id="contact" className="text-center section">
         <div className="container">
-          <h2 className="mb-5">Contacts</h2>
+          <h3 className="mb-5">Contacts</h3>
           <p><i className="fab fa-facebook me-2"></i> Tuna Universitária da Madeira</p>
           <p><i className="fab fa-spotify me-2"></i> Tuna Universitária da Madeira</p>
           <p><i className="fab fa-youtube me-2"></i> Tuna Universitária da Madeira</p>

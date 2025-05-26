@@ -1,44 +1,68 @@
+:root {
+  --color-primary: brown;             
+  --color-secondary: brown; 
+  --color-tertiary: black;       
+  --color-accent: #05C3DD;         
+  --color-text: #111;               
+  --color-light: #ffffff;
+  --color-dark: #000000;
+  --color-footer-bg: #111;
+  --color-footer-text: brown;
+
+  --font-base: 'Poppins', sans-serif;
+  --font-size-h1: 4rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 2rem;
+  --font-size-p: 1.25rem;
+  --font-size-nav: 1rem;
+
+  --spacing-section: 100px 20px;
+  --spacing-footer: 30px;
+  --hero-padding: 2rem;
+  --navbar-blur: 8px;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
-  background: brown;
-  color: #111;
+  font-family: var(--font-base);
+  background: var(--color-primary);
+  color: var(--color-text);
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: var(--font-size-h1);
   font-weight: 700;
-  color: #a52a2a;
+  color: var(--color-secondary);
 }
 
-h2 {
-  font-size: 2rem;
+h2{
+    font-size: var(--font-size-h2);
   font-weight: 700;
-  color: black;
-  font-style: bold;
-}
+  color: var(--color-secondary);
+} 
 h3 {
-  font-size: 2rem;
+  font-size: var(--font-size-h2);
   font-weight: 700;
-  color: #a52a2a;
-  font-style: bold;
+  color: var(--color-tertiary);
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: var(--font-size-p);
 }
 
 .hero {
   height: 100vh;
   position: relative;
-  color: white;
+  color: var(--color-light);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
-  overflow: hidden;
+  padding: var(--hero-padding);
   padding-top: 80px;
+  overflow: hidden;
 }
 
 .hero video {
@@ -56,24 +80,19 @@ p {
 }
 
 .btn-primary {
-  background-color: brown;
+  background-color: var(--color-primary);
+  color: var(--color-light);
   border: none;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .btn-primary:hover {
   transform: scale(1.05);
-  background-color: #05C3DD;
+  background-color: var(--color-accent);
 }
 
 .section {
-  padding: 100px 20px;
-}
-
-.footer {
-  background-color: #111;
-  color: brown;
-  padding: 30px;
+  padding: var(--spacing-section);
 }
 
 .model-viewer-wrapper {
@@ -81,8 +100,24 @@ p {
   max-width: 700px;
   height: 500px;
   margin: 0 auto;
+  background: transparent;
 }
+
 .custom-navbar {
   background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(var(--navbar-blur));
+}
+
+.nav-link {
+  color: var(--color-light) !important;
+  font-weight: bold;
+  font-size: var(--font-size-nav);
+}
+
+
+.footer {
+  background-color: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  padding: var(--spacing-footer);
+  text-align: center;
 }
