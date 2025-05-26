@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function GuitarraModel() {
- const { scene } = useGLTF(process.env.PUBLIC_URL + "/models/guitarra_draco.glb", true);
+  const { scene } = useGLTF('./models/guitarra_draco.glb', true);
   const ref = useRef();
   useFrame(() => {
     if (ref.current) ref.current.rotation.y += 0.002;
