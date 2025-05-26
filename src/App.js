@@ -49,9 +49,12 @@ function App() {
       </nav>
 
       <section className="hero">
-        <video autoPlay muted loop>
-          <iframe src="https://drive.google.com/file/d/1tGwvrnACP2WWUphJsYvPJMAwi2XqJSXA/preview" width="100%" height="480" allow="autoplay"></iframe>
-        </video>
+      <video autoPlay muted loop controls width="100%">
+  <source
+    src="https://res.cloudinary.com/dqkwbunbd/video/upload/v1748284856/o7ty8rmsypcvnfa45lt8.mp4"
+    type="video/mp4"
+  />
+</video>
         <div className="hero-content">
           <h1>TUMa - Tuna Universitária da Madeira</h1>
           <p>Since 1998 promoting the spirit and academic life through music</p>
