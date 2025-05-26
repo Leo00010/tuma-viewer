@@ -1,0 +1,2 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+public/images/TUMa[[:space:]]-[[:space:]]MADEIRA[[:space:]]-[[:space:]]Videoclip1.mp4 filter=lfs diff=lfs merge=lfs -text

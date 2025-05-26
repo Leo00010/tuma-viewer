@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tuma-viewer/static/css/main.ec6d37ca.css",
+    "main.js": "/tuma-viewer/static/js/main.5ca0f5f2.js",
+    "static/js/453.3e550fff.chunk.js": "/tuma-viewer/static/js/453.3e550fff.chunk.js",
+    "index.html": "/tuma-viewer/index.html",
+    "main.ec6d37ca.css.map": "/tuma-viewer/static/css/main.ec6d37ca.css.map",
+    "main.5ca0f5f2.js.map": "/tuma-viewer/static/js/main.5ca0f5f2.js.map",
+    "453.3e550fff.chunk.js.map": "/tuma-viewer/static/js/453.3e550fff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec6d37ca.css",
+    "static/js/main.5ca0f5f2.js"
+  ]
+}
