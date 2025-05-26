@@ -49,12 +49,10 @@ function App() {
       </nav>
 
       <section className="hero">
-      <video autoPlay muted loop controls width="100%">
-  <source
-    src="https://res.cloudinary.com/dqkwbunbd/video/upload/v1748284856/o7ty8rmsypcvnfa45lt8.mp4"
-    type="video/mp4"
-  />
-</video>
+      <video autoPlay muted loop playsInline style="width: 100%; height: 100%; object-fit: cover;">
+  <source src="https://res.cloudinary.com/dqkwbunbd/video/upload/q_auto,f_auto/v1748284856/o7ty8rmsypcvnfa45lt8.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+  </video>
         <div className="hero-content">
           <h1>TUMa - Tuna Universitária da Madeira</h1>
           <p>Since 1998 promoting the spirit and academic life through music</p>
