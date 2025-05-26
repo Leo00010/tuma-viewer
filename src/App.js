@@ -50,7 +50,7 @@ function App() {
 
       <section className="hero">
         <video autoPlay muted loop>
-          <source src="https://drive.google.com/uc?export=download&id=1tGwvrnACP2WWUphJsYvPJMAwi2XqJSXA" type="video/mp4" />
+          <iframe src="https://drive.google.com/file/d/1tGwvrnACP2WWUphJsYvPJMAwi2XqJSXA/preview" width="100%" height="480" allow="autoplay"></iframe>
         </video>
         <div className="hero-content">
           <h1>TUMa - Tuna Universitária da Madeira</h1>
