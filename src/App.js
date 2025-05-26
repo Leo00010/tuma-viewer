@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function GuitarraModel() {
-  const { scene } = useGLTF('./models/guitarra_draco.glb', true);
+const { scene } = useGLTF(process.env.PUBLIC_URL + "/models/guitarra_draco.glb", true);
   const ref = useRef();
   useFrame(() => {
     if (ref.current) ref.current.rotation.y += 0.002;
@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
-         <img src="/images/logo.jpg" alt="Logo" style={{ height: '55px', marginLeft: '20px', marginRight: '-20px', float: 'left', borderRadius: '50%',objectFit: 'cover' }} />
+         <img src={process.env.PUBLIC_URL + "/images/logo.jpg"} alt="Logo" style={{ height: '55px', marginLeft: '20px', marginRight: '-20px', float: 'left', borderRadius: '50%',objectFit: 'cover' }} />
         <div className="container">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span className="navbar-toggler-icon"></span>
